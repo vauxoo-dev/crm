@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <openerp>
     <data>
-        <record id="crm_claim_type_tree" model="ir.ui.view">
+        <record id="crm_claim_code_tree" model="ir.ui.view">
             <field name="name">crm.claim.type.tree</field>
             <field name="model">crm.claim.type</field>
             <field name="arch" type="xml">
@@ -12,7 +12,7 @@
             </field>
         </record>
 
-        <record id="crm_claim_type_form" model="ir.ui.view">
+        <record id="crm_claim_code_form" model="ir.ui.view">
             <field name="name">crm.claim.type.form</field>
             <field name="model">crm.claim.type</field>
             <field name="arch" type="xml">
@@ -26,15 +26,15 @@
             </field>
         </record>
 
-        <record id="crm_claim_type_act" model="ir.actions.act_window">
+        <record id="crm_claim_code_act" model="ir.actions.act_window">
             <field name="name">Claim Types</field>
             <field name="res_model">crm.claim.type</field>
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
 
-        <menuitem action="crm_claim_type_act" name="Claim Types"
-                  id="menu_crm_claim_type_act"
+        <menuitem action="crm_claim_code_act" name="Claim Types"
+                  id="menu_crm_claim_code_act"
                   parent="crm_claim.menu_config_claim"
                   groups="base.group_no_one"/>
 

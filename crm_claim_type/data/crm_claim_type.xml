@@ -2,17 +2,17 @@
 <openerp>
     <data noupdate="1">
         <!-- Claims Type -->
-        <record id="crm_claim_type_customer" model="crm.claim.type">
+        <record id="crm_claim_code_customer" model="crm.claim.type">
             <field name="name">Customer</field>
             <field name="active">1</field>
         </record>
 
-        <record id="crm_claim_type_supplier" model="crm.claim.type">
+        <record id="crm_claim_code_supplier" model="crm.claim.type">
             <field name="name">Supplier</field>
             <field name="active">1</field>
         </record>
 
-        <record id="crm_claim_type_other" model="crm.claim.type">
+        <record id="crm_claim_code_other" model="crm.claim.type">
             <field name="name">Other</field>
             <field name="active">1</field>
         </record>
