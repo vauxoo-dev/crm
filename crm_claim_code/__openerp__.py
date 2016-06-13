@@ -4,6 +4,7 @@
 # Copyright (c)
 #    2015 Serv. Tec. Avanzados - Pedro M. Baeza (http://www.serviciosbaeza.com)
 #    2015 AvanzOsc (http://www.avanzosc.es)
+#    2016 Vauxoo (http://www.vauxoo.com)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published
@@ -27,8 +28,9 @@
     "author": "OdooMRP team, "
               "AvanzOSC, "
               "Serv. Tecnol. Avanzados - Pedro M. Baeza, "
-              "Odoo Community Association (OCA)",
-    "website": "http://www.avanzosc.es",
+              "Odoo Community Association (OCA),"
+              "Vauxoo",
+    "website": "http://www.avanzosc.esi, http://www.vauxoo.com",
     "license": "AGPL-3",
     "contributors": [
         "Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>",
@@ -36,6 +38,7 @@
         "Iker Coranti <ikercoranti@avanzosc.com>",
         "Oihane Crucelaegui <oihanecrucelaegi@avanzosc.es>",
         "Alfredo de la Fuente <alfredodelafuente@avanzosc.es>",
+        "Osval Reyes <osval@vauxoo.com>",
     ],
     "depends": [
         "crm_claim",
