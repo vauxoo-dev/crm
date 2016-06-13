@@ -1,11 +1,39 @@
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
     :alt: License: AGPL-3
 
-Sequential code for claims
-==========================
+Sequential code and claims types
+================================
 
-* This module adds a sequential code for claims.
+* Include a sequential code for CRM claims based on its type also included in here.
+* The types included allows to specify different document stages for it. Customer, Supplier and Other are the three predefined types this module installs with some custom stages for claim management.
 
+Installation
+============
+
+To install this module, you just need to select it from availables modules
+
+Configuration
+=============
+
+This modules do not require special configurations.
+It contains a predefined set of claim types.
+
+If you want add your own types go to Sales > Configurations > Claim > Claim Types.
+
+Usage
+=====
+
+To use this module, you need to:
+
+* Go to Claims, and select a claim type when creating/editing a claim
+
+.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
+   :alt: Try me on Runbot
+   :target: https://runbot.odoo-community.org/runbot/111/8.0
+
+For further information, please visit:
+
+* https://www.odoo.com/forum/help-1
 
 Bug Tracker
 ===========
@@ -13,7 +41,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/crm/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed feedback
-`here <https://github.com/OCA/crm/issues/new?body=module:%20crm_claim_code%0Aversion:%208.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`here <https://github.com/OCA/crm/issues/new?body=module:%20crm_claim_code%0Aversion:%208.0.2.0.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 
 Credits
@@ -27,6 +55,8 @@ Contributors
 * Iker Coranti <ikercoranti@avanzosc.com>
 * Oihane Crucelaegui <oihanecrucelaegi@avanzosc.es>
 * Alfredo de la Fuente <alfredodelafuente@avanzosc.es>
+* Osval Reyes <osval@vauxoo.com>
+* Yanina Aular <yanina.aular@vauxoo.com>
 
 Maintainer
 ----------
