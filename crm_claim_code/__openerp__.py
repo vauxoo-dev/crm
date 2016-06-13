@@ -41,7 +41,9 @@
         "crm_claim",
     ],
     "data": [
-        "views/crm_claim_view.xml",
+        'views/crm_claim.xml',
+        'views/crm_claim_stage.xml',
+        'views/crm_claim_code.xml',
         'security/ir.model.access.csv',
         "data/claim_sequence.xml",
         'data/crm_claim_code.xml',
