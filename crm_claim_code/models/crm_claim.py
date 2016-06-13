@@ -9,6 +9,10 @@ from openerp import models, fields, api
 class CrmClaim(models.Model):
     _inherit = "crm.claim"
 
+    claim_type = \
+        fields.Many2one('crm.claim.type',
+                        help="Claim classification")
+
     code = fields.Char(
         string='Claim Number', required=True, default="/", readonly=True)
 
@@ -30,3 +34,11 @@ class CrmClaim(models.Model):
         if 'code' not in default or default['code'] == '/':
             default['code'] = self.env['ir.sequence'].get('crm.claim')
         return super(CrmClaim, self).copy(default)
+
+    stage_id = fields.Many2one('crm.claim.stage',
+                               'Stage',
+                               track_visibility='onchange',
+                               domain="[ '&','|',('section_ids', '=', "
+                               "section_id), ('case_default', '=', True), "
+                               "'|',('claim_type', '=', claim_type)"
+                               ",('claim_common', '=', True)]")

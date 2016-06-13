@@ -43,6 +43,12 @@
     "data": [
         "views/crm_claim_view.xml",
         "data/claim_sequence.xml",
+        'data/crm_claim_code.xml',
+        'data/crm_claim_stage.xml',
+    ],
+    'demo': [
+        'demo/crm_claim.xml',
+        'demo/crm_claim_stage.xml',
     ],
     "installable": True,
     "pre_init_hook": "create_code_equal_to_id",
