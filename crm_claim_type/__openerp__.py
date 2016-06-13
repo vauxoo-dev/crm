@@ -34,7 +34,6 @@
     'data': [
         'data/crm_claim_code.xml',
         'data/crm_claim_stage.xml',
-        'security/ir.model.access.csv',
         'views/crm_claim.xml',
         'views/crm_claim_stage.xml',
         'views/crm_claim_code.xml',
