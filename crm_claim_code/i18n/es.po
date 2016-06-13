@@ -140,7 +140,7 @@ msgid "Search Stages"
 msgstr "Buscar etapas"
 
 #. module: crm_claim_code
-#: model:crm.claim.type,name:crm_claim_code.crm_claim_code_supplier
+#: model:crm.claim.type,name:crm_claim_code.crm_claim_type_supplier
 msgid "Supplier"
 msgstr "Proveedor"
 
